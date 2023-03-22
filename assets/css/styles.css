@@ -115,7 +115,7 @@ a {
 /* Hero */
 .hero {
     background: #FFFCF4;
-    padding-top: 64px;
+    padding: 64px 0;
 }
 
 .hero .main-content {

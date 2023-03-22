@@ -134,6 +134,7 @@ a {
 }
 
 .hero .main-content .img {
+    display: block;
     width: 470px;
     height: 685px;
     object-fit: cover;

@@ -1,6 +1,6 @@
 ## Lesson - an HTML/CSS landing page
 
-<!-- [Click here to view the webpage.](https://incandescent-florentine-b63517.netlify.app/) -->
+[Click here to view the webpage.](https://flourishing-figolla-e94802.netlify.app/)
 
 ---
 

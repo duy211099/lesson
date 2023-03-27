@@ -58,6 +58,7 @@ a {
     position: sticky;
     top: -30px;
     background: #FFFCF4;
+    z-index: 1;
 }
 
 .header .main-content {

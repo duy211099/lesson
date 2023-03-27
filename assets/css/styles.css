@@ -156,7 +156,8 @@ a {
     display: flex;
     gap: 16px;
 }
-.hero .media-info .item + .item {
+
+.hero .media-info .item+.item {
     margin-top: 14px;
 }
 
@@ -225,10 +226,12 @@ a {
     line-height: 1.67;
     color: #171100;
 }
+
 .hero .info-block .cta-group .watch-btn:hover img {
     border-radius: 999px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
 }
+
 .hero .info-block .cta-group .watch-btn:hover span {
     text-decoration: underline;
 }
@@ -251,6 +254,57 @@ a {
     line-height: 1.23;
     color: #171100;
 }
+
 .hero .info-block .stats {
     padding-bottom: 8px;
+}
+
+/* Popular */
+
+.popular {
+    margin-top: 135px;
+    padding: 60px 0;
+}
+
+.popular-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-top .heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.popular-top .desc {
+    width: 458px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #5F5B53;
+}
+
+.popular .controls{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.popular .control-btn {
+    border-radius: 50%;
+    border: 1px solid #FFB900;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+
+    transition: .2s;
+}
+
+.popular .control-btn:hover {
+    background: #FFB900;
 }

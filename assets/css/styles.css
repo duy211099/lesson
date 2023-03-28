@@ -302,7 +302,18 @@ a {
     height: 40px;
     background: #fff;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     transition: .2s;
+}
+
+.popular .control-btn svg {
+    color: #FFB900;
+}
+.popular .control-btn:hover svg{
+    color: white;
 }
 
 .popular .control-btn:hover {

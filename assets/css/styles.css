@@ -405,7 +405,7 @@ a {
     background: #2E2100;
 }
 
-.feedback-list{
+.feedback-list {
     display: flex;
     overflow: hidden;
 }
@@ -439,6 +439,7 @@ a {
 }
 
 .feedback-item .title {
+    font-family: var(--font-heading);
     margin-top: 18px;
     font-weight: 700;
     font-size: 2.4rem;
@@ -472,4 +473,59 @@ a {
 .feedback-item .dot.is-active {
     background: #FFB900;
     cursor: default;
+}
+
+/* Features */
+
+.features {
+    margin-top: 200px;
+}
+
+.features .images {
+    display: flex;
+    gap: 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .images img:first-child {
+    margin-top: 30px;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.features .content {
+    width: 41%;
+}
+
+.features .content .heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .content .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+}
+
+.features .content .btn {
+    margin-top: 32px;
+    background: #FFB900;
 }

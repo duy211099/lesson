@@ -405,9 +405,23 @@ a {
     background: #2E2100;
 }
 
+.feedback-list{
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.feedback-item img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .feedback-item .content blockquote {

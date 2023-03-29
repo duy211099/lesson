@@ -4,4 +4,4 @@
 
 ---
 
-<!-- ![Image](./demo.png) -->
+![Image](./demo.png)

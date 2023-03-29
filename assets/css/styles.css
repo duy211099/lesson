@@ -530,6 +530,10 @@ a {
     background: #FFB900;
 }
 
+.features-2 {
+    margin-bottom: 200px;
+}
+
 .features-2 .image img {
     width: 470px;
     height: 440px;
@@ -539,4 +543,111 @@ a {
 
 .features-2 .content {
     width: 49%;
+}
+
+/* Blog */
+
+.blog {
+    background: #FFFCF4;
+    padding-top: 96px;
+    padding-bottom: 140px;
+}
+
+.blog .blog-top {
+    text-align: center;
+}
+
+.blog .blog-top .heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #130606;
+}
+
+.blog .blog-top .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #696262;
+}
+
+.blog .blog-list {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.blog .blog-list .item {
+    flex: 1 1 33.3%;
+    border-radius: 16px;
+    background: white;
+}
+
+.blog .blog-list .item:hover {
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-list .item .thumb {
+    width: 100%;
+    aspect-ratio: 1.48;
+    object-fit: cover;
+}
+
+.blog .blog-list .content {
+    padding: 20px;
+}
+
+.blog .blog-list .date {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #5F5B53;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.blog .date::before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background: #FFB900;
+    line-height: 1.86;
+    margin-right: 4px;
+}
+
+.blog .date::after {
+    content: "";
+    height: 2px;
+    display: inline-block;
+    background: #E2DFDA;
+    border-radius: 0.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: -27px
+}
+
+.blog .title {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+}
+
+.blog .btn {
+    margin-top: 12px;
+}
+
+.blog .btn:hover {
+    background: #FFB900;
 }
